@@ -5,6 +5,7 @@ public class GameInput : MonoBehaviour
 {
     
     public event EventHandler OnInteractAction;
+    
     private PlayerInputActions playerInputActions;
     
     private void Awake()
@@ -25,7 +26,6 @@ public class GameInput : MonoBehaviour
         var inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
 
         inputVector = inputVector.normalized;
-        Debug.Log(inputVector);
         return inputVector;
     }
     

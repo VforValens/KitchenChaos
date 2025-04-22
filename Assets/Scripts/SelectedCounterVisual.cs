@@ -15,7 +15,11 @@ public class SelectedCounterVisual : MonoBehaviour
     {
         if (e.selectedCounter == clearCounter)
         {
-            
+            Show();
+        }
+        else
+        {
+            Hide();
         }
     }
 
