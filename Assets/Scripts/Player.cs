@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
                 // Has ClearCounter
                 if (clearCounter != selectedCounter)
                 {
-                    SetSelectedCounter(selectedCounter);
+                    SetSelectedCounter(clearCounter);
                 }
             } else {
                 SetSelectedCounter(null);
