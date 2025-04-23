@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs : EventArgs
     {
-        public ClearCounter selectedCounter;
+        public ClearCounter SelectedCounter;
     }
     
     [SerializeField] private float moveSpeed = 10f;
@@ -79,8 +79,6 @@ public class Player : MonoBehaviour
         } else {
             SetSelectedCounter(null);
         }
-        
-        Debug.Log(selectedCounter);
     }
 
     private void HandleMovement()
@@ -135,17 +133,17 @@ public class Player : MonoBehaviour
         
         isWalking = moveDirection != Vector3.zero;
         
-        // Handle rotation of player visual towards movement direction.
+        // Handle rotation of the player visual towards a movement direction.
         transform.forward = Vector3.Slerp(transform.forward, moveDirection, Time.deltaTime * rotateSpeed);
     }
 
-    private void SetSelectedCounter(ClearCounter selectedCounter)
+    private void SetSelectedCounter(ClearCounter newSelectedCounter)
     {
-        this.selectedCounter = selectedCounter;
+        this.selectedCounter = newSelectedCounter;
         
         OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs
         {
-            selectedCounter = selectedCounter
+            SelectedCounter = newSelectedCounter
         });
     }
 }
