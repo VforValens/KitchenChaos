@@ -1,3 +1,4 @@
+using Scriptable_Objects;
 using UnityEngine;
 
 public class KitchenObject : MonoBehaviour
