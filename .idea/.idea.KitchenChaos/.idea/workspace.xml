@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb4bafb-8c44-42b9-ad12-8f6baa45c09a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KitchenChaos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Counters/StoveCounter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Counters/StoveCounter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Frying Recipe SO/MeatPattyCooked-MeatPattyBurned.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Frying Recipe SO/MeatPattyCooked-MeatPattyBurned.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Frying Recipe SO/MeatPattyUncooked-MeatPattyCooked.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Frying Recipe SO/MeatPattyUncooked-MeatPattyCooked.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/BaseCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/BaseCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Counters/StoveCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Counters/StoveCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/FryingRecipeSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/FryingRecipeSO.cs" afterDir="false" />
-    </list>
+    <list default="true" id="8bb4bafb-8c44-42b9-ad12-8f6baa45c09a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,6 +143,7 @@
       <workItem from="1745962987008" duration="13521000" />
       <workItem from="1746019719112" duration="4100000" />
       <workItem from="1746467151506" duration="3089000" />
+      <workItem from="1746849942800" duration="120000" />
     </task>
     <servers />
   </component>
