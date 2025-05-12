@@ -1,4 +1,3 @@
-using Scriptable_Objects;
 using UnityEngine;
     
 [CreateAssetMenu()]
