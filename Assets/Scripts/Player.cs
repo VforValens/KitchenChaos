@@ -14,8 +14,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent
         public BaseCounter SelectedCounter;
     }
     
-    
-    
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float rotateSpeed = 10f;
     [SerializeField] private GameInput gameInput;
@@ -26,7 +24,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     private Vector3 lastInteractDirection;
     private BaseCounter selectedCounter;
     private KitchenObject kitchenObject;
-
 
     private void Awake()
     {
