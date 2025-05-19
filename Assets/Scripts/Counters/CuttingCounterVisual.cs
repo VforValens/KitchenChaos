@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CuttingCounterVisual : MonoBehaviour
 {
+    private static readonly int Cut = Animator.StringToHash(CUT);
 
 
     private const string CUT = "Cut";
@@ -26,7 +27,7 @@ public class CuttingCounterVisual : MonoBehaviour
     
     private void CuttingCounter_OnCut(object sender, EventArgs e)
     {
-        animator.SetTrigger(CUT);
+        animator.SetTrigger(Cut);
     }
     
 }

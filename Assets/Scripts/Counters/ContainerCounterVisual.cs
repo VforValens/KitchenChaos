@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ContainerCounterVisual : MonoBehaviour
 {
+    private static readonly int OpenClose = Animator.StringToHash(OPEN_CLOSE);
 
 
     private const string OPEN_CLOSE = "OpenClose";
@@ -26,7 +27,7 @@ public class ContainerCounterVisual : MonoBehaviour
     
     private void ContainerCounter_OnPlayerGrabsObject(object sender, EventArgs e)
     {
-        animator.SetTrigger(OPEN_CLOSE);
+        animator.SetTrigger(OpenClose);
     }
     
 }
