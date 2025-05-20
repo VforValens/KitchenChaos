@@ -1,44 +1,34 @@
-using System;
 using UnityEngine;
 
-public class StoveBurnWarningUI : MonoBehaviour
-{
+public class StoveBurnWarningUI : MonoBehaviour {
 
 
     [SerializeField] private StoveCounter stoveCounter;
-
-
     
-    private void Start()
-    {
+
+    private void Start() {
         stoveCounter.OnProgressChanged += StoveCounter_OnProgressChanged;
-        
+
         Hide();
     }
 
-    private void StoveCounter_OnProgressChanged(object sender, IHasProgress.OnProgressChangedEventArgs e)
-    {
+    private void StoveCounter_OnProgressChanged(object sender, IHasProgress.OnProgressChangedEventArgs e) {
         float burnShowProgressAmount = .5f;
         bool show = stoveCounter.IsFried() && e.progressNormalized >= burnShowProgressAmount;
 
-        if (show)
-        {
+        if (show) {
             Show();
-        }
-        else
-        {
+        } else {
             Hide();
         }
     }
 
-    private void Show()
-    {
+    private void Show() {
         gameObject.SetActive(true);
     }
-    
-    private void Hide()
-    {
-        gameObject.SetActive(false);   
+
+    private void Hide() {
+        gameObject.SetActive(false);
     }
-    
+
 }
