@@ -272,6 +272,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 7699812546247240925, guid: d8e36a40fff0a7a4badb3a92cc77c885,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7699812546247240925, guid: d8e36a40fff0a7a4badb3a92cc77c885,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7699812546247240925, guid: d8e36a40fff0a7a4badb3a92cc77c885,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -307,8 +322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b1bbdcc2407ea4d9785b09abee3913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: 7abd527819adad34cbeb24b3cd55d3ba, type: 2}
   counterTopPoint: {fileID: 6154564369796555820}
+  kitchenObjectSO: {fileID: 11400000, guid: 7abd527819adad34cbeb24b3cd55d3ba, type: 2}
 --- !u!4 &2043255441124580573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5460305936371719936, guid: d8e36a40fff0a7a4badb3a92cc77c885,
